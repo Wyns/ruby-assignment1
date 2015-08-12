@@ -2,14 +2,14 @@ def count_vowels(string)
 
 vowels = 0
 
-i = 0
-while i < string.length
+letters = 0
+while letters < string.length
 
-if (string[i] == "a" || string[i] == "e" || string[i] == "i" || string[i] == "o" || string[i] == "u")
+if (string[letters] == "a" || string[letters] == "e" || string[letters] == "i" || string[letters] == "o" || string[letters] == "u")
 vowels += 1
 end
 
-i += 1
+letters += 1
 end
 return vowels
 end
