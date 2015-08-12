@@ -1,20 +1,26 @@
 def palindrome?(string)
 
-i = 0
+# i = 0
 
-while i < string.length
+# while i < string.length
 
 
 
-if string[i] != string[(string.length - 1) - i]
-return false
+# if string[i] != string[(string.length - 1) - i]
+# return false
 
-end
+# end
 
-i += 1
-end
+# i += 1
+# end
 
-return true
+# return true
+
+if string == string.reverse
+	return true
+else 
+	return false
+	end
 end
 # These are tests to check that your code is working. After writing
 # your solution, they should all print true.
