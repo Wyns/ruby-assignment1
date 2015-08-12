@@ -1,12 +1,12 @@
 
 def sum_nums(num)
-sum = 0
+results = 0
 i = 0
 while i <= num
-sum += i
+results += i
 i += 1
 end
-return sum
+return results
 end
 # These are tests to check that your code is working. After writing
 # your solution, they should all print true.
