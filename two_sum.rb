@@ -5,20 +5,32 @@
 # Difficulty: medium.
 def two_sum(nums)
 	
-i = 0
-while i < nums.length
-	j = i + 1
-	while j < nums.length
-		if nums[i] + nums[j] == 0
-			return [i,j]
-		end
-		j += 1
-	end
-	i += 1
+# i = 0
+# while i < nums.length
+# 	j = i + 1
+# 	while j < nums.length
+# 		if nums[i] + nums[j] == 0
+# 			return [i,j]
+# 		end
+# 		j += 1
+# 	end
+# 	i += 1
 	
-end
-return nil
+# end
+# return nil
+index1 = 0
 
+   while index1 < nums.length
+ 	index2 = index1 + 1
+   while index2 < nums.length
+
+if nums[index1] + nums[index2] == 0
+
+	return [index1, index2]
+else 
+	return nil
+end
+end
 end
 # These are tests to check that your code is working. After writing
 # your solution, they should all print true.

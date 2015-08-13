@@ -1,10 +1,12 @@
 def factorial(n)
-key = 1
-while n > 0
-key = key * n
-n -= 1
+results = 1
+
+while results > 0
+results = results * n
+results -= 1
 end
-return key
+
+return results
 
 end
 

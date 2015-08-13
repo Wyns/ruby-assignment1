@@ -1,6 +1,8 @@
 def reverse(string)
+
 	reversed_string = ""
 	i = string.length-1
+
 	while i >= 0
 		reversed_string =  reversed_string + string[i]
 		i -= 1

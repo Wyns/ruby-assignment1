@@ -20,7 +20,7 @@ def time_conversion(minutes)
 hr = minutes/60
 
 if hr == 0 && minutes%60 <= 59
-time = 0.to_s + ":" + minutes%60.to_s
+time = 00.to_s + ":" + minutes%60.to_s
 return time
 
 elsif hr > 0 && minutes%60 != 0

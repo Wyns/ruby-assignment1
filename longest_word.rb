@@ -9,6 +9,7 @@ current_word = words[i]
 
 if longest_word == ""
 longest_word = current_word
+
 elsif longest_word.length < current_word.length
 longest_word = current_word
 end
@@ -16,7 +17,7 @@ end
 i+= 1
 end
 return longest_word
- words.max_by { |x| x.length }
+ # words.max_by { |x| x.length }
 
 end
 
