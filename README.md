@@ -1,2 +1,2 @@
 # ruby-assignment1
-ruby practice exercises
+ruby practice exercise
