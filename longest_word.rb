@@ -4,6 +4,7 @@ words = sentence.split(" ")
 longest_word = ""
 
 i = 0
+
 while i < words.length
 current_word = words[i]
 
@@ -17,6 +18,7 @@ end
 i+= 1
 end
 return longest_word
+        # OR
  # words.max_by { |x| x.length }
 
 end
